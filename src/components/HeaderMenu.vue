@@ -35,21 +35,28 @@ export default {};
   background-color: rgb(44, 46, 54);
   color: white;
 }
-.left h3{
+.left h3 {
   display: inline-block;
   vertical-align: top;
   margin-left: 10px;
   padding-top: 15px;
   text-transform: uppercase;
 }
-.left{
+.left {
   cursor: pointer;
 }
-.two_blocks div{
+.two_blocks div {
   display: inline-block;
 }
-.rightContent{
+.rightContent {
   float: right;
   padding-top: 10px;
+}
+.rightContent button {
+  background: transparent;
+  padding: 10px 25px;
+  border-radius: 20px;
+  color: white;
+  border: 1px solid white;
 }
 </style>
