@@ -17,14 +17,19 @@
         <h3>mediabay</h3>
       </div>
       <div class="rightContent">
-        <button>Войти</button>
+        <button @click="$emit('changeComp', 'LogIn')">Войти</button>
       </div>
     </div>
   </div>
 </template>
 
 <script>
-export default {};
+import LogIn from '@/components/logIn.vue'
+export default {
+  comments: {
+    LogIn,
+  }
+};
 </script>
 
 <style scoped>
